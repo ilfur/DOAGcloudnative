@@ -1,0 +1,3 @@
+docker build -t phoffman/departuresvag:v1.0 .
+docker run --name=departuresvag -d -p 5001:5001 phoffman/departuresvag:v1.0
+

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: departures-vag
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: departures-vag
+  template:
+    metadata:
+      labels:
+        app: departures-vag  
+    spec:
+      containers: 
+      - name: departures-vag 
+        image: fra.ocir.io/oraseemeadesandbox/doag19_repo/departures-vag:latest
+        ports:
+        - containerPort: 80
+      imagePullSecrets:
+        - name: darknet-secret
