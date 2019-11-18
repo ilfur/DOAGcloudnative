@@ -22,7 +22,7 @@ while True:
     d = json.loads(json_data)
     crow = len(d['Abfahrten'])
 #   Connection to ADW
-    connection = cx_Oracle.connect("admin", "AutonomousIsAbFab42", "db201910311128_low", encoding="UTF8")
+    connection = cx_Oracle.connect("admin", "ADMIN_PWD", "TNS_SERVICE_NAME", encoding="UTF8")
     cursor = connection.cursor()
     statement = 'insert into DEPARTURES (product, linenumber, direction, actual, planned) values (:2, :3, :4, :5, :6)'
     for i in range(0, crow):
