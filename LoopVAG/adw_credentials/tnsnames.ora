@@ -1,9 +1,0 @@
-db201910311128_high = (description= (address=(protocol=tcps)(port=1522)(host=adb.eu-frankfurt-1.oraclecloud.com))(connect_data=(service_name=n7pmwsc8te8fjty_db201910311128_high.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
-        "CN=adwc.eucom-central-1.oraclecloud.com,OU=Oracle BMCS FRANKFURT,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
-
-db201910311128_low = (description= (address=(protocol=tcps)(port=1522)(host=adb.eu-frankfurt-1.oraclecloud.com))(connect_data=(service_name=n7pmwsc8te8fjty_db201910311128_low.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
-        "CN=adwc.eucom-central-1.oraclecloud.com,OU=Oracle BMCS FRANKFURT,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
-
-db201910311128_medium = (description= (address=(protocol=tcps)(port=1522)(host=adb.eu-frankfurt-1.oraclecloud.com))(connect_data=(service_name=n7pmwsc8te8fjty_db201910311128_medium.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
-        "CN=adwc.eucom-central-1.oraclecloud.com,OU=Oracle BMCS FRANKFURT,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
-
