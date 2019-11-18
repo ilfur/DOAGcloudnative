@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 
 def departureslame():
-        connection = cx_Oracle.connect("admin", "AutonomousIsAbFab42", "db201910311128_low", encoding="UTF8")
+        connection = cx_Oracle.connect("admin", "ADMIN_PWD", "TNS_SERVICE_NAME", encoding="UTF8")
 
         output = ''
         cursor = connection.cursor()
